@@ -77,7 +77,7 @@ def show_result(title, intervals):
 
 
 print("INPUT PROCESSES")
-print("PID      AT      BT")
+print("PID AT BT")
 
 for p in processes:
     print(f'{p["pid"]:<5} {p["arrival"]:<4} {p["burst"]}')
